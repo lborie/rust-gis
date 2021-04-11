@@ -1,0 +1,11 @@
+[package]
+name = "rust-gis"
+version = "0.1.0"
+authors = ["Ludovic Borie <l.borie@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+postgres = "0.19.1"
+postgis = "0.8.0"
